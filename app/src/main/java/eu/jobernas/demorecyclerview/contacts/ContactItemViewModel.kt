@@ -1,6 +1,6 @@
 package eu.jobernas.demorecyclerview.contacts
 
-class ContactItemViewModel(
+data class ContactItemViewModel(
     val name: String,
     val contactNumber: Int): ItemViewModel {
 

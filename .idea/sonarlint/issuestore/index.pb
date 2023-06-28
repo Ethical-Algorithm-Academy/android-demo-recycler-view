@@ -5,15 +5,3 @@ t
 Dapp/src/androidTest/java/eu/jobernas/demorecyclerview/ContextTest.kt,d/5/d5ea7536abd62edba50b4850de4bf9d2412da04d
 ?
 settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
-@
-app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
-€
-Papp/src/main/java/eu/jobernas/demorecyclerview/contacts/ContactItemViewHolder.kt,1/9/19fb9a2b67c4eeccd278e9a6bc1d7acebc42f4ec
-
-Oapp/src/main/java/eu/jobernas/demorecyclerview/contacts/ContactItemViewModel.kt,b/c/bc782a8fcc54c4c3f7dda2cce801521b2a4549b8
-x
-Happ/src/main/java/eu/jobernas/demorecyclerview/contacts/ItemViewModel.kt,1/d/1d9ca266db1829d8000c026b218e97069b046ecf
-z
-Japp/src/main/java/eu/jobernas/demorecyclerview/contacts/ContactsAdapter.kt,a/6/a6d7e94e6b23be9dc7d327cb0e143dec476acd3c
-v
-Fapp/src/main/java/eu/jobernas/demorecyclerview/RecyclerViewFragment.kt,f/a/fa7291e69b4fae516dd74494926ae41ce72ce99a

@@ -21,12 +21,16 @@ class ContactItemViewHolder(
                     viewGroup.context.layoutInflater, viewGroup, false))
     }
 
-    fun bind(contactItemViewModel: ContactItemViewModel) {
+    fun bind(contactItemViewModel: ContactItemViewModel,
+             deleteAction: (position: Int) -> Unit) {
         binding.apply {
             val context = root.context
             contactItemViewModel.apply {
                 itemTitleTextView.text = name
                 itemSubTitleTextView.text = contactNumber.toString()
+            }
+            itemRemoveButton.setOnClickListener {
+                deleteAction.invoke(adapterPosition)
             }
         }
     }
