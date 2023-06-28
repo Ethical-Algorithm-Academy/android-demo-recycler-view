@@ -5,9 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import eu.jobernas.demorecyclerview.contacts.ContactExtraItemViewModel
 import eu.jobernas.demorecyclerview.contacts.ContactItemViewModel
 import eu.jobernas.demorecyclerview.contacts.ContactsAdapter
 import eu.jobernas.demorecyclerview.databinding.FragmentRecyclerViewBinding
@@ -18,6 +17,10 @@ class RecyclerViewFragment:
     private var _binding: FragmentRecyclerViewBinding? = null
     private var adapter: ContactsAdapter = ContactsAdapter(mutableListOf(
         ContactItemViewModel("John Doe", 961234196),
+        ContactExtraItemViewModel( 961234199),
+        ContactExtraItemViewModel( 961234193),
+        ContactExtraItemViewModel( 961234191),
+        ContactExtraItemViewModel( 961234192),
         ContactItemViewModel("Jessica Alda", 962434111),
         ContactItemViewModel("Michael Smith", 964567890),
         ContactItemViewModel("Emily Johnson", 965432109),
