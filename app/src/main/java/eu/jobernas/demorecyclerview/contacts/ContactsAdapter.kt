@@ -38,6 +38,9 @@ class ContactsAdapter(
 
     override fun getItemCount(): Int = items.size
 
+    override fun getItemId(position: Int): Long =
+        items[position].identifier.hashCode().toLong()
+
     override fun getItemViewType(position: Int): Int =
         items[position].viewType
 
