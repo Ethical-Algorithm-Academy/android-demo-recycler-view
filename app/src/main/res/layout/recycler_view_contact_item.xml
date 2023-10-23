@@ -12,8 +12,6 @@
         android:layout_height="56dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@color/gray"
-        android:padding="16dp"
         android:src="@drawable/ic_placeholder_person_96"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/item_title_text_view"
