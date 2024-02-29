@@ -16,7 +16,7 @@ class ContactsAdapter(
         setHasStableIds(true)
     }
 
-    fun load(items: List<ContactItemViewModel>) {
+    fun load(items: List<ItemViewModel>) {
         this.items.apply {
             clear()
             addAll(items)
@@ -29,7 +29,7 @@ class ContactsAdapter(
         notifyItemRemoved(position)
     }
 
-    fun remove(item: ContactItemViewModel) {
+    fun remove(item: ItemViewModel) {
         val position = items.indexOf(item).takeIf { it != -1 } ?: return
         Log.d(TAG, "position:$position")
         items.removeAt(position)
